@@ -10,6 +10,7 @@ import br.com.vitt.vdmovie.dto.MovieDTO;
 import br.com.vitt.vdmovie.entities.Movie;
 import br.com.vitt.vdmovie.repositories.MovieRepository;
 
+
 @Service
 public class MovieService {
 	
