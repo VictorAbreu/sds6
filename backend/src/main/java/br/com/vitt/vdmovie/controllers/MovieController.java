@@ -1,5 +1,6 @@
 package br.com.vitt.vdmovie.controllers;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,6 +15,7 @@ import br.com.vitt.vdmovie.services.MovieService;
 @RequestMapping(value = "/movies")
 public class MovieController {
 	
+	@Autowired
 	private MovieService service;
 	
 	@GetMapping
